@@ -10,8 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.2
-  provider: ^6.0.0  # Đã hỗ trợ null safety
-  flutter_cache_manager: ^3.0.0  # Thay cho `cache`
+  provider: ^6.0.0
+  flutter_cache_manager: ^3.0.0
+  carousel_slider: ^4.0.0
 
 dev_dependencies:
   flutter_test:

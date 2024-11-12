@@ -52,9 +52,9 @@ class Product {
       availability: json['availability'] ?? 'Unavailable',
       colorOptions: List<String>.from(json['color_options'] ?? []),
       size: {
-        'length': json['size']?['length'] ?? 'N/A',
-        'width': json['size']?['width'] ?? 'N/A',
-        'height': json['size']?['height'] ?? 'N/A',
+        'length': (json['size']?['length']?.toString() ?? 'N/A'),
+        'width': (json['size']?['width']?.toString() ?? 'N/A'),
+        'height': (json['size']?['height']?.toString() ?? 'N/A'),
       },
       material: json['material'] ?? 'Unknown',
       features: List<String>.from(json['features'] ?? []),
